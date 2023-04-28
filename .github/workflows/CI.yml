@@ -8,8 +8,10 @@ on:
       - opened
       - synchronize
 
+
 jobs:
   test:
     name: Tests
-    run: |
-      echo "OK"
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "OK"
