@@ -14,4 +14,4 @@ jobs:
     name: Tests
     runs-on: ubuntu-latest
     steps:
-      - run: echo "OK"
+      - run: sleep 60 && echo "OK"
